@@ -10,16 +10,25 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:vscode-gitignore-template.ignore-template"
+    "onCommand:vscode-gitignore-template.gitignore-template"
   ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "vscode-gitignore-template.ignore-template",
-        "title": "ignore-template"
+        "command": "vscode-gitignore-template.gitignore-template",
+        "title": "use gitignore template"
       }
-    ]
+    ],
+    "menus": {
+      "explorer/context": [
+        {
+          "command": "vscode-gitignore-template.gitignore-template",
+          "group": "7_modification",
+          "when": "resourceFilename == .gitignore"
+        }
+      ]
+    }
   },
   "scripts": {
     "vscode:prepublish": "yarn run package",
