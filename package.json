@@ -4,7 +4,7 @@
   "description": "vscode gitignore template",
   "version": "0.0.1",
   "engines": {
-    "vscode": "^1.46.0"
+    "vscode": "^1.63.0"
   },
   "categories": [
     "Other"
@@ -44,6 +44,7 @@
     "commit": "check-node-version --node 16 && cz",
     "change-log": "conventional-changelog -p angular -i CHANGELOG.md -s"
   },
+  "publisher": "bayeswang",
   "lint-staged": {
     "*.ts": [
       "prettier --write",
@@ -94,5 +95,8 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "repository": {
+    "url": "https://github.com/coconilu/vscode-gitignore-template"
   }
 }
