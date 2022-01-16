@@ -44,6 +44,7 @@
     "commit": "check-node-version --node 16 && cz",
     "change-log": "conventional-changelog -p angular -i CHANGELOG.md -s"
   },
+  "publisher": "bayeswang",
   "lint-staged": {
     "*.ts": [
       "prettier --write",
