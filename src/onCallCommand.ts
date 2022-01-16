@@ -1,6 +1,6 @@
 import { TextEncoder } from 'util';
 import * as vscode from 'vscode';
-import TemplateHelper from './TemplateHelper';
+import TemplateHelper from '@/TemplateHelper';
 
 /**
  * 1. 如果是右键点击.gitignore，那么uri是存在的，跳到 5；如果是从命令行执行的，则uri是undefined，逻辑顺序往下
