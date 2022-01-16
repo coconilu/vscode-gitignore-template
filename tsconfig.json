@@ -4,7 +4,6 @@
     "target": "es6",
     "outDir": "out",
     "lib": ["es6", "es2018", "DOM"],
-    "allowJs": true,
     "sourceMap": true,
     "rootDir": "src",
     "baseUrl": ".",
