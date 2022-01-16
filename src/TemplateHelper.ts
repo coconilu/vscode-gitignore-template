@@ -5,7 +5,7 @@ class TemplateHelper {
   templates: Record<string, string> = {};
 
   constructor() {
-    console.log('TemplateHelper Init');
+    console.log('TemplateHelper Inits');
   }
 
   getTemplateMenu = async () => {
